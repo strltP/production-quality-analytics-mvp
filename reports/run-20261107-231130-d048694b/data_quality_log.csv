@@ -1,0 +1,3 @@
+﻿Severity,Code,File,Sheet,Row,Detail
+WARNING,BATCH_ID_REUSED,,,,46 batch IDs recur across retained inspection keys.
+INFO,TYPE_WITH_ZERO_DEFECTS,,,,14 zero-defect rows have a type label. They contribute zero units to any category.
