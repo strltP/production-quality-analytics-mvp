@@ -18,12 +18,6 @@ py -3.11 -m venv .venv
 & ".\.venv\Scripts\python.exe" -m pip install -r requirements.txt
 ```
 
-If Python 3.12 is installed, use `py -3.12` in the first command. If the Python
-launcher is unavailable, check `python --version` and use
-`python -m venv .venv`. The commands call the virtual environment interpreter
-directly, so PowerShell activation is optional. In VS Code, select
-`.venv\Scripts\python.exe` with **Python: Select Interpreter**.
-
 ### 1. Run the public workbook
 
 ```powershell
