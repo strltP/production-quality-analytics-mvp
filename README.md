@@ -190,20 +190,6 @@ environment. The CLI has no notebook dependency.
 - The pipeline works in memory and targets small to moderate exports. Source
   formulas, exotic spreadsheet layouts, and Windows Office rendering are
   outside the verified scope. See the test record for platform coverage.
-
-## Two-minute interview demo
-
-1. Open the public workbook and show why `Batch_ID` cannot serve as the sole
-   key. Run the CLI and open the audit log.
-2. Trace 5,062 ÷ 42,259 from the source counts to the Excel summary and deck.
-   Compare the line with the highest observed rate with its denominator.
-3. Run the separate synthetic demo and explain why its Pareto is valid. Show
-   how the CSV preparation maps one simulated inspection to one unit.
-
-Questions to practice:
-
-1. Why do you divide aggregate counts instead of averaging batch rates?
-2. Why does this dataset support inspection yield, and what evidence would
    you need to calculate first-pass yield?
 3. How do you distinguish a duplicate inspection from a reused batch ID?
 4. Why is the public workbook's Pareto omitted, and what makes the simulated
